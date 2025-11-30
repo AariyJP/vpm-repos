@@ -1,27 +1,23 @@
 {
-    "name": "あぁりー - VPM リポジトリ",
+    "name": "あぁりー",
     "id": "pm.booth.aariyjp.vpm-repos",
     "url": "https://aariyjp.github.io/vpm-repos/index.json",
     "author": {
+        "email": "68491595+AariyJP@users.noreply.github.com",
         "name": "あぁりー",
         "url": "https://github.com/AariyJP"
     },
-    "description": "あぁりー - VRChat Package Manager リポジトリ",
+    "description": "あぁりー VRChat Package Manager リポジトリ",
     "infoLink": {
-        "url": "http://github.com/AariyJP/vpm-repos",
-        "text": "GitHubで見る"
+        "url": "https://aariyjp.booth.pm",
+        "text": "BOOTHを見る"
     },
-    "githubRepos": [
-        "AariyJP/vpm-repos"
-    ],
+    "githubRepos": [],
     "bannerUrl": "banner.png",
     "packages": [
         {
-            "name": "com.vrchat.udonsharp",
-            "releases": [
-                "https://github.com/vrchat-community/UdonSharp/releases/download/1.1.7/com.vrchat.UdonSharp.zip",
-                "https://github.com/vrchat-community/UdonSharp/releases/download/1.1.6/com.vrchat.UdonSharp-1.1.6.zip"
-            ]
+            "name": "pm.booth.aariyjp.vpm-example",
+            "releases": []
         }
     ]
 }
