@@ -231,12 +231,16 @@
         {{~ end ~}}
       </fluent-data-grid>
     </fluent-card>
-    {{~ if listingInfo.InfoLink.Url ~}}
+    <hr width="75%" class="m-2">
+    <!-- {{~ if listingInfo.InfoLink.Url ~}}
     <div class="caption1" id="publishedByText">
       <a href="{{listingInfo.InfoLink.Url}}" target="_blank">{{ if listingInfo.InfoLink.Text; listingInfo.InfoLink.Text;
         else; "Lean More"; end; }}</a>
     </div>
-    {{~ end; ~}}
+    {{~ end; ~}} -->
+    <div class="caption1" id="privacyPolicyText">
+      <a href="/vpm-repos/privacy">プライバシーポリシー</a>
+    </div>
   </div>
   <script type="module" src="app.js"></script>
 </body>
