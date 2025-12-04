@@ -41,7 +41,9 @@
       <fluent-text-field aria-readonly="true" id="vccUrlField" class="vccUrlField" readonly
         value="{{ listingInfo.Url }}">
       </fluent-text-field>
-      <fluent-button appearance="accent" class="ms-2" id="vccAddRepoButton">VCCに追加</fluent-button>
+      <fluent-button appearance="accent" class="ms-2" id="vccAddRepoButton">
+        VCCに追加
+      </fluent-button>
       <fluent-button class="ms-2" id="vccUrlFieldCopy">
         <svg slot="start" width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
           <path
@@ -214,7 +216,6 @@
           <fluent-data-grid-cell grid-column="3" class="row align-items-center justify-content-end">
             <fluent-button appearance="accent" class="rowAddToVccButton"
               data-package-id="{{ package.Name }}">
-              <svg width="24" height="24" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2c5.523 0 10 4.477 10 10s-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2Zm0 5a.75.75 0 0 0-.743.648l-.007.102v3.5h-3.5a.75.75 0 0 0-.102 1.493l.102.007h3.5v3.5a.75.75 0 0 0 1.493.102l.007-.102v-3.5h3.5a.75.75 0 0 0 .102-1.493l-.102-.007h-3.5v-3.5A.75.75 0 0 0 12 7Z"/></svg>
               VCCに追加
             </fluent-button>
             <fluent-button title="Package Info" class="rowPackageInfoButton ms-2" data-package-id="{{ package.Name }}">
