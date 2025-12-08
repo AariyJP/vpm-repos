@@ -16,8 +16,10 @@
     "bannerUrl": "banner.png",
     "packages": [
         {
-            "name": "pm.booth.aariyjp.vpm-example",
-            "releases": []
+            "name": "pm.booth.aariyjp.tiptoe-blocker",
+            "releases": [
+                "https://github.com/AariyJP/vpm-repos/releases/download/TiptoeBlocker_v1.0.0/pm.booth.aariyjp.tiptoe-blocker-v1.0.0.zip"
+            ]
         }
     ]
 }
