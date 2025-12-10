@@ -210,8 +210,11 @@
           <fluent-data-grid-cell cell-type="columnheader" grid-column="1">
             パッケージ名
           </fluent-data-grid-cell>
-          <fluent-data-grid-cell cell-type="columnheader" grid-column="2">
+          <!-- <fluent-data-grid-cell cell-type="columnheader" grid-column="2">
             タイプ
+          </fluent-data-grid-cell> -->
+          <fluent-data-grid-cell cell-type="columnheader" grid-column="2">
+            最新バージョン
           </fluent-data-grid-cell>
           <fluent-data-grid-cell cell-type="columnheader" grid-column="3">
           </fluent-data-grid-cell>
@@ -225,8 +228,11 @@
               <div class="caption2">{{ package.Name }}</div>
             </div>
           </fluent-data-grid-cell>
-          <fluent-data-grid-cell grid-column="2" class="row align-items-center">
+          <!-- <fluent-data-grid-cell grid-column="2" class="row align-items-center">
             {{ package.Type }}
+          </fluent-data-grid-cell> -->
+          <fluent-data-grid-cell grid-column="2" class="row align-items-center">
+            {{ package.Version }}
           </fluent-data-grid-cell>
           <fluent-data-grid-cell grid-column="3" class="row align-items-center justify-content-end">
             <fluent-button appearance="accent" class="rowAddToVccButton"
