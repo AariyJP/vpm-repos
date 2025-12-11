@@ -85,6 +85,7 @@ const setTheme = () => {
     setTimeout(() => {
       vccUrlFieldCopy.appearance = 'neutral';
     }, 1000);
+    gtag('event', 'copy_vcc_url', {});
   });
 
   const vccAddRepoButton = document.getElementById('vccAddRepoButton');
@@ -95,6 +96,7 @@ const setTheme = () => {
 
   const vccUrlFieldCopy = document.getElementById('vccUrlFieldCopy');
   vccUrlFieldCopy.addEventListener('click', () => {
+    gtag('event', 'copy_vcc_url', {});
     const vccUrlField = document.getElementById('vccUrlField');
     vccUrlField.select();
     navigator.clipboard.writeText(vccUrlField.value);
@@ -221,6 +223,7 @@ const setTheme = () => {
 
   const packageInfoVccUrlFieldCopy = document.getElementById('packageInfoVccUrlFieldCopy');
   packageInfoVccUrlFieldCopy.addEventListener('click', () => {
+    gtag('event', 'copy_vcc_url_row', {});
     const vccUrlField = document.getElementById('packageInfoVccUrlField');
     vccUrlField.select();
     navigator.clipboard.writeText(vccUrlField.value);
