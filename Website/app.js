@@ -160,7 +160,7 @@ const setTheme = () => {
   rowAddToVccButtons.forEach((button) => {
     button.addEventListener('click', () => {
       window.location.assign(`vcc://vpm/addRepo?url=${encodeURIComponent(LISTING_URL)}`);
-      // gtag('event', 'add_to_vcc_row', {});
+      gtag('event', 'add_to_vcc_row', {});
     });
   });
 
