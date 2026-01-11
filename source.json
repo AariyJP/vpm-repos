@@ -20,6 +20,12 @@
             "releases": [
                 "https://github.com/AariyJP/vpm-repos/releases/download/TiptoeBlocker/TiptoeBlocker_v1.0.2.zip"
             ]
+        },
+        {
+            "name": "pm.booth.aariyjp.simple-arm-fixer",
+            "releases": [
+                "https://github.com/AariyJP/vpm-repos/releases/download/SimpleArmFixer/SimpleArmFixer_v1.1.0.zip"
+            ]
         }
     ]
 }
